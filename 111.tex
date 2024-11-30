@@ -1,0 +1,80 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Liu Xuanming}
+
+\basicInfo{
+  \email{lewisleclerc16444416@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 15691907786}  
+  }
+ 
+\section{\faGraduationCap\  Educational background}
+\datedsubsection{\textbf{Southern University of Technology and Science}, Shenzhen}{2021.09 -- now}
+\textit{Bachelor's degree}\ in Computer and Science in Engineering, expected to graduate in June 2025
+
+\section{\faUsers\ Internship/project experience}
+
+\datedsubsection{\textbf{The online campus exhibition system of the University of Science and Technology}}{2023.09 -- 2024.01}
+\role{front-end and back-end interactive}{back-end: springboot, Mysql database} {front-end:Vue2} {GitHub:https://github.com/SaxonNB/OOAD-Course-Project} 
+\begin{itemize}
+  \item Use node.js package manager npm, use yarn module management.
+  \item I was responsible for the front-end part, and the implementation of the building, review, store, and purchase interface.
+\end{itemize}
+
+\datedsubsection{\textbf{Unbalance problem in multi-objective optimization}}{2023.09 -- 2024.01}
+\role{Python} {}  
+\begin{itemize}
+  \item I evaluated the effect of the objective function with delay on the performance of the algorithm.
+  \item I achieved a preliminary study on this topic last semester.
+\end{itemize}
+
+\datedsubsection{\textbf{Southern University of Science and Technology online sports activity platform}}{2024.03 -- 2024.06}
+\role{front-end and back-end interactive} {back-end: Springboot, MyBatis, Redis, Node.js, Mysql} {front-end: Vue2} {GitHub:https:https://github.com/sustech-cs304/team-project-24spring-24/tree/dev} 
+\begin{itemize}
+  \item Use a secure authentication mechanism, such as JWT
+  \item I was responsible for the front-end part, and the implementation of the booking activities, selecting seats, paying with special points, and purchase interface.
+\end{itemize}
+
+\datedsubsection{\textbf{Chinese medicine large language model}}{2024.05 -- 2024.09}
+\role{Python} {RAG, ChatGLM}
+\begin{itemize}
+  \item Use ChatGLM as the base, professional Chinese medicine data is added to build a large model in the field of Chinese medicine.
+  \item I was responsible for build of RAG, dealing with the data and extract the keywords to satisfy the model, then trained the model with data.
+\end{itemize}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+\section{\faCogs\ IT skills}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: Python == Java > C
+  \item Architecture: Vue
+\end{itemize}
+\section{\faHeartO\ awards}
+\datedline{\textit {The first class freshman Scholarship of Southern University of Science and Technology in the semester of 2021-22}}
+
+\section{\faInfo\ Others}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item Language: English (CET6, IELTS speaking band 6)
+\end{itemize}
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
